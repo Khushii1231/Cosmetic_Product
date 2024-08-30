@@ -1,0 +1,63 @@
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #6f1d1b; 
+  padding: 10px 20px;
+  height: 90px;
+  position: relative;
+  z-index: 10;
+  margin: 0;
+  box-sizing: border-box; 
+  color: white;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar .logo img {
+  height: 80px; 
+  margin-right: 15px;
+  
+}
+
+.navbar .heading {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 24px;
+  color: #ffe6a7; 
+  font-weight: bold;
+}
+
+.navbar .profile img {
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ffe6a7; 
+}
+
+@media (max-width: 768px) {
+  .navbar .heading {
+      font-size: 18px; 
+  }
+  .navbar .logo img,
+  .navbar .profile img {
+      height: 30px; 
+  }
+}
+.navbar.dark-mode {
+  color: yellow;
+}
+
+.theme-toggle {
+  background: black;
+  border: solid black;
+  color: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px;
+}
+

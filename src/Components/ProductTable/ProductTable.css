@@ -1,0 +1,66 @@
+
+.ant-table {
+    background-color: #ffe6a7;
+    border: 1px solid #432818; 
+}
+
+.ant-table-thead > tr > th {
+    background-color: #bb9457; 
+    color: white; 
+    font-weight: bold;
+}
+
+.ant-table-tbody > tr > td {
+    background-color: #fff; 
+    color: #432818; 
+}
+
+.ant-table-tbody > tr:hover > td {
+    background-color: #f5d8a0; 
+}
+.ant-btn {
+    background-color: #99582a; 
+    color: white; 
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.ant-btn:hover {
+    background-color: #6f1d1b; 
+    color: white; 
+}
+
+.ant-notification-notice {
+    background-color: #ffe6a7; 
+    border: 1px solid #432818; 
+}
+
+.ant-notification-notice-message {
+    color: #432818; 
+}
+
+.ant-notification-notice-description {
+    color: #6f1d1b; 
+}
+
+a {
+    color: #6f1d1b;
+}
+
+a:hover {
+    color: #bb9457;
+}
+
+.ant-table-column-sort {
+    background-color: #99582a !important; 
+    color: #ffe6a7; 
+}
+
+.ant-table-column-sorters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ant-table-column-sorter-up.active,
+.ant-table-column-sorter-down.active {
+    color: #ffe6a7;
+}

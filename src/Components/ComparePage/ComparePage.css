@@ -1,0 +1,41 @@
+.compare-page {
+    padding: 20px;
+  }
+  .compare-page .comparison {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .compare-page .compare-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+  }
+  .add-more-icon {
+    font-size: 10rem;
+    color: #6f1d1b; 
+    cursor: pointer;
+  }
+
+  .product-image {
+    width: 50px;
+  }
+  .add-more-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px ;
+  }
+  
+   .compare-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .compare-product-image {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  

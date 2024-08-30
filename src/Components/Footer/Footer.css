@@ -1,0 +1,38 @@
+.footer {
+    background-color: #6f1d1b;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #ffe6a7;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #bb9457;
+  }
+  
+  @media (max-width: 768px) {
+    .icon {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .icon-container {
+      flex-direction: column;
+    }
+  
+    .icon {
+      margin: 10px 0;
+    }
+  }
+  
