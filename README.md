@@ -1,70 +1,70 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Cosmatic Product Web Application
 
-In the project directory, you can run:
+This React-based web application allows users to view, compare, and analyze products using data fetched from an API. The application features a clean, responsive design with dark mode functionality, and includes fixed navigation elements, dynamic tables, and advanced product comparison capabilities.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Responsive Navbar and Sidebar**: The application features a fixed Navbar at the top and a fixed Sidebar on the left, providing easy access to different sections of the website.
+- **Product Details Page**: A dynamic table displaying product information fetched from the DummyJSON API. The table supports pagination, sorting, and has a "Compare" button for each product.
+- **Product Comparison**: Compare selected products side by side based on features, brand, price, category, and more. Products can be added or removed from comparison, with a maximum of four products compared at once.
+- **Add More Products Modal**: A modal window with a fixed-height table that allows users to add more products to compare. The table supports sorting, pagination, and prevents adding duplicate products.
+- **Dark Mode**: Users can toggle between light and dark modes using a switch in the Navbar.
+- **Notifications**: Users receive notifications for every product added, removed, or when an action is denied.
+- **Infinite Scroll Pagination**: Smooth loading of additional products as users scroll down the Product Details Page.
+- **Code Splitting**: Efficient loading of application components to optimize performance.
+- **Routing**: Seamless navigation between the Product Details and Compare Product pages using React Router.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **ReactJS**
+- **Ant Design**: Used for creating the table and other UI components.
+- **React Router**: For routing between different pages.
+- **Axios**: For making API calls.
+- **Netlify/Heroku**: For deployment of the application.
+- **React Context API**: For managing state and implementing dark mode.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. **Clone the repository**:
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies**:
+   npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Run the development server**:
+   npm start
+  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Build the application**:
+   npm run build
 
-### `npm run eject`
+5. **Deploy the application**: Netlify Website Link - https://cosmatic-product-comparison.netlify.app/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Product Details Page
+- Displays a table with the following columns: `Title`, `Description`, `Price`, `Discount Percentage`, `Brand`, `Category`, and `Image (Thumbnail)`.
+- Pagination and sorting functionalities are implemented.
+- The "Compare" button is disabled if the product is already added to the comparison.
+  
+### Compare Product Page
+- Displays selected products side by side, comparing attributes like `Title`, `Brand`, `Price`, etc.
+- "Add More" button opens a modal to select additional products for comparison.
+- Users can add up to 4 products at a time for comparison.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Notifications
+- Notifications are displayed for product actions like adding, removing, or denial of action.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Deployment
 
-## Learn More
+This application is deployed on -
+Netlify Website Link - https://cosmatic-product-comparison.netlify.app/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
